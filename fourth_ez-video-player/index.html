@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AH shit .. here we go again</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+   </head>
+<body>
+    <h1>EZ Player</h1>
+    <p>(click below to play the video)</p>
+    <div class="content">
+        <div class="videoPlayer">
+            <!-- <video src="someVideo.mp4" controls></video> HERE controls GIVE ALL CONTROLS THAT U CREATED FUCKK ME  -->
+            <video class="player" src="chrisJ_AWP_ACE.mp4" ></video> 
+            <div class="controls">
+
+                <div class="progress">
+                    <div class="progressFilled"></div>
+                </div>
+                
+                    <button class="playButton toggle">►</button>
+                    <i class='fas fa-volume-up' style='font-size:18px'></i>
+                    <input type="range" name="volume" class="slider" min="0" max="1" step="0.05" value="0.7">
+                    <i class='fas fa-backward' style='font-size:20px'></i>
+                    <input type="range" name="playbackRate" class="slider" min="0.5" max="2" step="0.1" value="1">
+                    <i class='fas fa-forward' style='font-size:20px'></i>
+            </div>
+        </div>
+        <p class="foot">© 2020.Made with <span style="color: #e74c3c">&hearts;</span> in India</p>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
