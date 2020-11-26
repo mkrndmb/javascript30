@@ -1,2 +1,3 @@
 # javascript30
-some wes bos inpired projects based on vanilla js
+Wes Bos inspired projects in vanilla js:
+=> to-do-list,video-player,calculator,analog-clock,etc
